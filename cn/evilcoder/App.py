@@ -14,8 +14,18 @@ class Base :
     def info(self):
         print "{username = " + self.username + ", password = "+self.password + "]"
 
+    def hello(self, name):
+        print "hello, I am ", name
+
 base = Base("nn","pp")
 base.info()
+base.hello("evilcoder")
+
+threeQuote = """
+"What's your name?," I asked.
+He said "Bond, James Bond."
+"""
+print threeQuote
 
 
 
